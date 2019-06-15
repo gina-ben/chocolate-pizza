@@ -1,0 +1,182 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width:100%;
+}
+
+header {
+    border: 2px solid red;
+    width:960px;
+    margin: auto;
+}
+
+main {
+    width:960px;
+    margin: auto;
+}
+
+footer {
+    width:960px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'brush script mt';
+    font-size: 3em;
+}
+
+
+/* ----- DEBUGGING ----- */
+
+
+section {
+    border: 2px solid blue;
+}
+
+section > div {
+    border: 2px solid darkgoldenrod;
+}
+
+div > div {
+    border: 2px solid green;
+}
+
+
+/* ----- HEADER ----- */
+
+header section {
+        overflow: hidden;
+}
+
+#logo {
+    background: khaki;
+    float: left;
+    
+}
+
+#logo > * {
+    display: inline-block;
+}
+
+#social {
+    background: grey;
+    display: inline-block;
+    float: right;
+}
+
+#social > * {
+    display: inline-block;
+}
+
+/* ----- ARTICLE TITLE ----- */
+
+#article-title {
+    background: hotpink;
+    overflow: hidden;
+}
+
+#title {
+    float: left;    
+}
+
+#print {
+    float: right;
+}
+
+#print > * {
+    float: left;
+}
+
+#article-title h2 {
+    font-size: 2.5em;
+} 
+
+#article-title p {
+    font-size: .7em;
+} 
+
+
+/* ----- HERO IMAGE ----- */
+
+#hero img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* ----- ARTICLE CONTENT ----- */
+
+#article-content {
+    padding: 20px 35px;
+}
+#article-content p {
+    padding: 10px 0;
+    text-indent: 2em;
+}
+
+/* ----- ARTICLE CONTENT ----- */
+
+
+.recipe {
+    height: 310px;
+    background-image: url(/img/list-bg.png);
+    font-size: 1.23em;
+    font-family: 'comic sans ms';
+}
+
+.recipe form {
+    display: inline-block;
+    border: 2px solid black;
+    width: 200 px;
+    height: 300 px;
+    padding: 55px 0 0 80px;
+}
+
+.recipe label {
+    margin: 10px 0;
+    display: block;
+}
+
+.recipe input[type='checkbox']:checked + span {
+    text-decoration: line-through;
+}
+
+
+/* ----- author section ----- */
+
+#author {
+    overflow: hidden;
+    background: lightgreen;
+    /* font-size: 1.4em; */
+}
+
+#author div {
+    overflow: hidden;
+    width: 75%;
+    float: left;
+}
+
+#author img {
+    float: left;
+}
+
+#author > button {
+    float: left;
+    background-color: #bc7058;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px 20px;
+}
+
+#author > div > div {
+    background: lightcoral;
+    padding: 5px 10px;
+}
+
+#author h3 {
+    font-size: 2em;
+
+}
