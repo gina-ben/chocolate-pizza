@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width:960px;
     margin: auto;
 }
@@ -33,7 +33,7 @@ h1 {
 /* ----- DEBUGGING ----- */
 
 
-section {
+/* section {
     border: 2px solid blue;
 }
 
@@ -43,7 +43,7 @@ section > div {
 
 div > div {
     border: 2px solid green;
-}
+} */
 
 
 /* ----- HEADER ----- */
@@ -53,7 +53,7 @@ header section {
 }
 
 #logo {
-    background: khaki;
+    /* background: khaki; */
     float: left;
     
 }
@@ -63,7 +63,7 @@ header section {
 }
 
 #social {
-    background: grey;
+    /* background: grey; */
     display: inline-block;
     float: right;
 }
@@ -75,7 +75,7 @@ header section {
 /* ----- ARTICLE TITLE ----- */
 
 #article-title {
-    background: hotpink;
+    /* background: hotpink; */
     overflow: hidden;
 }
 
@@ -129,7 +129,7 @@ header section {
 
 .recipe form {
     display: inline-block;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 200 px;
     height: 300 px;
     padding: 55px 0 0 80px;
@@ -149,7 +149,7 @@ header section {
 
 #author {
     overflow: hidden;
-    background: lightgreen;
+    /* background: lightgreen; */
     /* font-size: 1.4em; */
 }
 
@@ -172,7 +172,7 @@ header section {
 }
 
 #author > div > div {
-    background: lightcoral;
+    /* background: lightcoral; */
     padding: 5px 10px;
 }
 
