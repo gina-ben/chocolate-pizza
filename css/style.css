@@ -12,7 +12,6 @@ header {
     border: 2px solid red;
     width:960px;
     margin: auto;
-    /* overflow: hidden; */
 }
 
 main {
@@ -55,7 +54,6 @@ header section {
 
 #logo {
     background: khaki;
-    /* width: 300px; */
     float: left;
     
 }
@@ -66,7 +64,6 @@ header section {
 
 #social {
     background: grey;
-    /* width: 300px; */
     display: inline-block;
     float: right;
 }
@@ -181,4 +178,5 @@ header section {
 
 #author h3 {
     font-size: 2em;
+
 }
