@@ -10,12 +10,12 @@ body {
 
 header {
     /* border: 2px solid red; */
-    width:960px;
+    width:920px;
     margin: auto;
 }
 
 main {
-    width:960px;
+    width:920px;
     margin: auto;
 }
 
@@ -60,12 +60,14 @@ header section {
 
 #logo > * {
     display: inline-block;
+    padding: 5px;
 }
 
 #social {
     /* background: grey; */
     display: inline-block;
     float: right;
+    padding-top: 45px;
 }
 
 #social > * {
@@ -85,6 +87,7 @@ header section {
 
 #print {
     float: right;
+    padding-top: 35px;
 }
 
 #print > * {
@@ -105,12 +108,14 @@ header section {
 #hero img {
     display: block;
     margin: 0 auto;
+    padding-top: 10px;
 }
 
 /* ----- ARTICLE CONTENT ----- */
 
 #article-content {
     padding: 20px 35px;
+    font-size: 1.2em;
 }
 #article-content p {
     padding: 10px 0;
@@ -121,7 +126,7 @@ header section {
 
 
 .recipe {
-    height: 310px;
+    height: 304px;
     background-image: url(/img/list-bg.png);
     font-size: 1.23em;
     font-family: 'comic sans ms';
@@ -180,3 +185,23 @@ header section {
     font-size: 2em;
 
 }
+
+/* ----- footer ----- */
+
+.line-break {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer * {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5px;
+}
+
+
