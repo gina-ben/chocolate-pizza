@@ -25,6 +25,11 @@ footer {
     margin: auto;
 }
 
+h1 {
+    font-family: 'brush script mt';
+    font-size: 3em;
+}
+
 
 /* ----- DEBUGGING ----- */
 
@@ -52,6 +57,7 @@ header section {
     background: khaki;
     /* width: 300px; */
     float: left;
+    
 }
 
 #logo > * {
@@ -115,3 +121,64 @@ header section {
 }
 
 /* ----- ARTICLE CONTENT ----- */
+
+
+.recipe {
+    height: 310px;
+    background-image: url(/img/list-bg.png);
+    font-size: 1.23em;
+    font-family: 'comic sans ms';
+}
+
+.recipe form {
+    display: inline-block;
+    border: 2px solid black;
+    width: 200 px;
+    height: 300 px;
+    padding: 55px 0 0 80px;
+}
+
+.recipe label {
+    margin: 10px 0;
+    display: block;
+}
+
+.recipe input[type='checkbox']:checked + span {
+    text-decoration: line-through;
+}
+
+
+/* ----- author section ----- */
+
+#author {
+    overflow: hidden;
+    background: lightgreen;
+    /* font-size: 1.4em; */
+}
+
+#author div {
+    overflow: hidden;
+    width: 75%;
+    float: left;
+}
+
+#author img {
+    float: left;
+}
+
+#author > button {
+    float: left;
+    background-color: #bc7058;
+    color: white;
+    padding: 15px 32px;
+    margin: 10px 20px;
+}
+
+#author > div > div {
+    background: lightcoral;
+    padding: 5px 10px;
+}
+
+#author h3 {
+    font-size: 2em;
+}
