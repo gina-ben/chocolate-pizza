@@ -127,7 +127,7 @@ header section {
 
 .recipe {
     height: 304px;
-    background-image: url(img/list-bg.png);
+    background-image: url(../img/list-bg.png);
     font-size: 1.23em;
     font-family: 'comic sans ms';
 }
